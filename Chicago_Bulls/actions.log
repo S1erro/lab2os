@@ -1,0 +1,11 @@
+aslan@LAPTOP-6T9USRBM:/lab2os/Chicago_Bulls$ echo '---------------------------' > del.log
+aslan@LAPTOP-6T9USRBM:/lab2os/Chicago_Bulls$ cat Айо_Досунму/info.txt >> summary.txt && cat del.log >> summary.txt && cat Андре_Драммонд/info.txt >> summary.txt && cat del.log >> summary.txt && cat Джастин_Льюис/info.txt >> summary.txt && cat del.log >> summary.txt && cat Джевон_Картер/info.txt >> summary.txt
+aslan@LAPTOP-6T9USRBM:/lab2os/Chicago_Bulls$ cat summary.txt
+Айо Досунму, атакующий защитник, возраст: 23 рост: 193 вес: 91
+---------------------------
+Андре Драммонд, центровой, возраст: 30 рост: 211 вес: 127
+---------------------------
+Джастин Льюис, тяжелый форвард, возраст: 22 рост: 203 вес: 98
+---------------------------
+Джевон Картер, разыгрывающий, возраст: 28 рост: 185 вес: 91
+aslan@LAPTOP-6T9USRBM:/lab2os/Chicago_Bulls$ rm -r del.log
